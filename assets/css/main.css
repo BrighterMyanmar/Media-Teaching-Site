@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ul{list-style-type: none;}
+a{text-decoration: none;}
+
+:root{
+    --main:rgb(252, 251, 251);
+    --primary:rgb(16, 14, 37);
+    --secondary:#ddd;
+    --accent:hotpink;
+    --text-white:#fff;
+    --link-color:rgb(79, 59, 228);
+}
+
+body{
+    background-color: var(--main);
+}
+
+.wrapper{
+    width:1300px;
+    margin:0 auto;
+}
+
+.titlebar{
+    background-color: var(--primary);
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titlebar > a{
+    background-color: var(--accent);
+    color:var(--text-white);
+    line-height: 30px;
+    font-size:14px;
+    padding:0 10px;
+}

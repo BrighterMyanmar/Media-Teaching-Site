@@ -1,0 +1,9 @@
+header{
+    padding-top:20px;
+    display:flex;
+    align-items: center;
+}
+.banner{
+    flex:1;
+    text-align:center;
+}

@@ -1,0 +1,72 @@
+nav{
+
+}
+.navul{
+    display:flex;
+    background-color: var(--primary);
+    height: 60px;
+}
+.navul > li{
+    line-height: 60px;
+}
+.navul > li > a{
+    padding:0 20px;
+    color:var(--text-white);
+}
+.navul > li > a:hover{
+    color:var(--accent);
+}
+.arrow-down{
+    position:relative;
+    top:8px;
+}
+
+.level1{
+    display:none;
+}
+
+.level1 > li {
+    line-height:45px;
+    background-color: var(--primary);
+    width:200px;
+    padding-left:20px;
+    border-bottom:1px solid var(--text-white);
+}
+.level1 > li:hover{
+    background-color: var(--accent);
+} 
+.level1 > li > a{
+    color:var(--text-white);
+    transition:500ms;
+}
+.level1 > li:hover > a{
+    padding:30px;
+}
+.navul > li:hover .level1{
+    display:block;
+}
+
+/* ------ Extra Nav ----------- */
+.extraNav{
+    background-color: var(--secondary);
+    display:flex;
+    padding:10px;
+    align-items: center;
+}
+.extraNav > p{
+    flex:1;
+    padding:0 10px;
+}
+.extraNav > input{
+    padding:10px 10px;
+    width:250px;
+}
+.extraNav > a.btn{
+    padding: 10px 20px;
+    background-color: var(--accent);
+    color:var(--text-white);
+}
+.extraNav > .input-search{
+    position: relative;
+    left:-30px;
+}
