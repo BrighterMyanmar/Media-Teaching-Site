@@ -1,0 +1,101 @@
+.htiketan{
+    padding-top:10px;
+}
+
+.htiketanParent{
+    padding-top:20px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:10px;
+}
+.htiketanBox > figure > img{
+    border-radius: 5px;
+}
+.htiketanBox > figure > figcaption{
+    font-size:12px;
+    text-align:center;
+    color:var(--link-color);
+}
+.htiketanBox > figure > figcaption:hover{
+    text-decoration:underline;
+}
+.htikenAside,.mdyAside{
+    padding-top:10px;
+}
+
+.mdyAsideInner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:5px;
+}
+.mdyAsideInner > a{
+    font-size:12px;
+    padding:0 5px;
+   
+}
+.mdyAsideInner > a:hover{
+    text-decoration: underline;
+}
+
+.singleHomeNew{
+    display:flex;
+}
+.singleHomeNew{
+    padding:10px 0;
+}
+.singleHomeNewPara{
+    padding:0 20px;
+}
+.singleHomeNewPara > a{
+    font-size:12px;
+}
+.singleHomeNewPara > p{
+    padding-top:20px;
+    font-size:12px;
+    text-indent: 20px;
+}
+.adsAside{
+    padding-top:20px;
+}
+.coupleNews{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px;
+}
+.coupleNewsInner > figure{
+    padding-top:10px;
+}
+.coupleNewsInner > figure > figcaption > a{
+    display:block;
+    text-align:center;
+    font-size:12px;
+}
+.coupleNewsInner > p{
+    text-indent: 20px;
+    padding:10px;
+    font-size:13px;
+}
+a.btn{
+    background-color: var(--accent);
+    padding:8px 10px;
+    color:var(--text-white);
+    border-radius: 2px;
+    margin-left:10px;
+}
+.coupleNewsAside{
+    padding-top:20px;
+}
+.coupleNewsAsideInner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:10px;
+}
+.coupleNewsAsideInner > a{
+    font-size:12px;
+    padding:10px;
+}
+.coupleNewsAsideInner > a:hover{
+    text-decoration: underline;
+}

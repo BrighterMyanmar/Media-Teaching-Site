@@ -4,7 +4,7 @@ main{
     grid-gap: 20px;
     
 }
-section,aside{
+section, .card{
     padding-top:20px;
 }
 .slidenews{
