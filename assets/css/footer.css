@@ -1,0 +1,40 @@
+footer{
+    margin-top:20px;
+    background-color: var(--primary);
+}
+.footer-inner{
+    padding:20px;
+    width:1300px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footerBox > h1{
+    font-size:20px;
+    padding:30px 0 20px;
+}
+
+.member input{
+    padding:10px 20px;
+    width:250px;
+    /* margin-bottom:10px; */
+    border:none;
+    border-radius:5px;
+}
+.member form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.member h1{
+    text-align:center;
+}
+.member > form > button{
+    padding:10px 15px;
+    float:right;
+    width:100px;
+    background-color: hotpink;
+    border:none;
+    border-radius:5px;
+}

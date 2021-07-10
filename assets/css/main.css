@@ -38,3 +38,6 @@ body{
     font-size:14px;
     padding:0 10px;
 }
+.text-white{
+    color:var(--text-white);
+}
