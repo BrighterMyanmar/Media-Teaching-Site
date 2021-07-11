@@ -1,0 +1,132 @@
+section{
+    width:1300px;
+    margin:20px auto;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:20px;
+}
+.ahtu-title,.ahtu-aside-title{
+    background-color: hotpink;
+    line-height:45px;
+}
+.ahtu-title > span {
+    line-height:45px;
+    display:block;
+    padding:0 20px;
+    font-weight: bolder;
+    text-align:center;
+    color:var(--text-white);
+}
+.ahtu-aside-title > span{
+    background-color: rgb(226, 226, 226);
+    line-height:45px;
+    display:block;
+    padding:0 20px;
+    font-weight: bolder;
+}
+.ahtu-box{
+    display:flex;
+}
+.ahtu-tatin-para > a{
+    font-size:14px;
+    display:block;
+    text-align:center;
+    color: hotpink;
+}
+.ahtu-tatin-para > a:hover{
+    text-decoration: underline;
+}
+.ahtu-tatin-para > p{
+    font-size:14px;
+    padding:20px;
+    text-align:justify;
+    text-indent: 20px;
+}
+.ahtu-aside-box{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top:20px;
+}
+.ahtu-aside-box > a{
+    padding:0 10px;
+    font-size:14px;
+    color:hotpink;
+}
+.ahtu-aside-box > a:hover{
+    text-decoration: underline;
+}
+
+.ahtu-img{
+    background-color: rgb(196, 196, 196);
+    padding:10px;
+    text-align:center;
+}
+.ahtu-img > img{
+    border-radius:10px;
+}
+.ahtu-about{
+    display:flex;
+    position: relative;
+    justify-content: space-between;
+}
+.camera_alt{
+    font-size:40px;
+    color:hotpink;
+    background-color: var(--text-white);
+    padding-right:5px;
+}
+.dashed-line{
+    top:10px;
+    position:absolute;
+    z-index: -1000;
+}
+.right-float-text{
+    padding-top:8px;
+    color:rgb(47, 141, 199);
+    background-color: var(--text-white);
+    padding-left:10px;
+}
+
+.author > p {
+    font-weight:bolder;
+}
+.created-at > p{
+    font-size:12px;
+}
+#para > p {
+    font-size:14px;
+    text-align:justify;
+    text-indent: 20px;
+    padding:10px;
+}
+/* ****************** Comment area ********************* */
+.comment{
+    /* background-color: #555; */
+    padding:20px;
+}
+.comment > h1{
+    color: var(--accent);
+    margin:10px 0;
+}
+.comment input {
+    padding:10px;
+    width:300px;
+    margin-bottom:10px;
+    border:none;
+    background-color:#ddd;
+}
+form > input:focus,form > textarea:focus{
+    outline:1px solid #ddd;
+}
+.comment textarea{
+    border:none;
+    background-color:#ddd;
+    padding:10px;
+} 
+.submitBtn{
+    padding:10px 20px;
+    color:var(--text-white);
+    background-color:var(--accent);
+    border:none;
+}
